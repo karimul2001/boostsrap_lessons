@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+   
+<div class="container">
+    <a href="" class="btn btn-success" title="Hellow, This is tooltip message" data-toggle="tooltip">Mouse over</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestias accusamus repudiandae quidem nemo delectus ea sed officia mollitia aut. Dolor atque sequi dignissimos, natus unde molestias repellendus quo deserunt accusantium minima officiis ipsa eius ut reiciendis consectetur blanditiis qui non! Ex ipsum mollitia hic voluptas at voluptatibus aliquam debitis.</p>
+    
+    <a href="" class="btn btn-success" title="are you sure" data-toggle="tooltip">Payment</a>
+
+</div>
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+     <script src="js/bootstrap.min.js"></script>
+     <!-- Tooltip initialize -->
+      <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip({placement: "auto"});
+        });
+      </script>
+</body>
+</html>
